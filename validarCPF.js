@@ -1,6 +1,6 @@
-function validarCPF(pObj)
+function validarCPF(pValue)
 {
-    let cpf = pObj.value.replace(/[^\d]+/g, '');
+    let cpf = pValue.replace(/[^\d]+/g, '');
     if (!cpf?.length > 0)
     {
         return false;
